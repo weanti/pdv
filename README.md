@@ -18,7 +18,7 @@ It does not use pkg-config and cmake's find_package, you have to define include 
 * OPENJPEG_LIBRARY_DIR
 
 Example:
-cmake -DFLTK_INCLUDE_DIR=/usr/include -DFLTK_LIBRARY_DIR=/usr/lib -DLIBDICOM_INCLUDE_DIR=/home/weanti/local/include -DLIBDICOM_LIBRARY_DIR=/home/weanti/local/lib -DOPENJPEG_INCLUDE_DIR=/usr/include -DOPENJPEG_LIBRARY_DIR=/usr/lib64 -B build/debug -DCMAKE_BUILD_TYPE=Release
+cmake -DFLTK_INCLUDE_DIR=/usr/include -DFLTK_LIBRARY_DIR=/usr/lib -DLIBDICOM_INCLUDE_DIR=/home/weanti/local/include -DLIBDICOM_LIBRARY_DIR=/home/weanti/local/lib -DOPENJPEG_INCLUDE_DIR=/usr/include -DOPENJPEG_LIBRARY_DIR=/usr/lib64 -B build/release -DCMAKE_BUILD_TYPE=Release
 
 If you have these installed on the same location (systemwide), then it is quite redundant. It may or may not change in the future.
 It is only tested on Linux.
